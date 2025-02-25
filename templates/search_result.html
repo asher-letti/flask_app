@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Result</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <p>Mobile: {{ contact.mobile }}</p>
+    <p>Email: {{ contact.email }}</p>
+    <p>Address: {{ contact.address }}</p>
+    <p>Registration Number: {{ contact.reg_number }}</p>
+    <a href="{{ url_for('contact_form') }}">Back to Form</a>
+</body>
+</html>
